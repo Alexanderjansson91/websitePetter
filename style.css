@@ -4,39 +4,33 @@ body, html {
     margin-top: 3vh;
     margin-left: 2vh;
     margin-right: 2vh;
-    margin-bottom: 3vh;
+    margin-bottom: 2vh;
     background: #96564C;
     
   }
 
-
 body{
-
     font-family: "montseratt", sans-serif;
-    
-    background-image: url("handyman.jpg");
-    
     background-size: cover;
     background-position: top center;
-
 }
-.app-wrap{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9),rgba(142, 142, 142, 0.9));
 
+.main{
+   min-height:53vh; 
 }
 
 .navbar-nav{ 
 text-align: center;
-
 }
 
+.navbar-brand{
+    color:black!important;
+    margin:10px;
+}
 
 .text-center{
     margin: auto;
-    margin-top:7vh;
+    margin-top:15vh;
     font-size:8vh;
     font-weight: 800;
     color:  rgb(0, 0, 0);;
@@ -60,15 +54,29 @@ text-align: center;
       text-align: center;
   }
 .page-footer{
-    background: #C1BFBB;
+    background: #dcdcdc;
     height: 16vh;
-    
     text-align: center;
+    margin-bottom: 3vh;
+    position: relative;
+   
+    display:block;
+
+}
+
+.navbar {
+    background: #dcdcdc;
+}
+
+.nav-item{
+    font-size: large;
+    margin:10px;
+    font-weight: 700;
 }
 
 .btn-warning{
-   margin:10px;
-   margin-top: 5vh;
+   margin:3px;
+   margin-top: 2vh;
    background-color: #daa92e!important;
    border-color:#daa92e!important;
    color:#ffffff!important;
@@ -77,5 +85,27 @@ text-align: center;
 
 .nav-link{
     color:#daa92e!important;
+}
+
+.container{
+    text-align: center;
+    margin:5vh;
+    
+}
+.contactheader{
+    margin:5vh;
+}
+
+.col-md-3{
+    font-size: x-small;
+    text-align: center;
+}
+
+.p-2{
+    margin:5.5vh;
+}
+.footer-copyright{
+    
+    margin-top: 28px;
 }
 
