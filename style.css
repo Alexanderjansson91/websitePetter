@@ -27,6 +27,14 @@ body{
 .card{
    width: 100%;
 }
+.border{
+    border-bottom: solid #dcdcdc;
+    width: 30vh;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
 
 .main{
    min-height:100vh; 
@@ -49,7 +57,7 @@ text-align: center;
 
 .text-center{
     margin: auto;
-    margin-top:15vh;
+    margin-top:10vh;
     font-size:8vh;
     font-weight: 800;
     color:  rgb(0, 0, 0);;
@@ -96,7 +104,7 @@ text-align: center;
 
 .btn-warning{
    margin:10px;
-   margin-top: 2vh;
+   margin-top: 6vh;
    background-color: #daa92e!important;
    border-color:#daa92e!important;
    color:#ffffff!important;
@@ -109,7 +117,6 @@ text-align: center;
 
 .container{
     text-align: center;
-    margin:5vh;
     
 }
 .contactheader{
@@ -117,7 +124,11 @@ text-align: center;
 }
 
 .projectsHeader{
-    margin:1vh;
+    margin-top:3vh;
+}
+
+.h3{
+    margin: 10vh;
 }
 
 .col-md-3{
@@ -132,8 +143,16 @@ text-align: center;
 
 .place{
     margin-bottom:17%;
-
+    margin:8vh;
 }
+
+.mail{
+    margin:8vh;
+}
+.phone{
+    margin:8vh;
+}
+
 .footer-copyright{
     position: absolute;
     justify-items: center;
@@ -146,13 +165,13 @@ text-align: center;
 
 .box {
     background: #dcdcdc;
-    height: 15%;
+    height: 25vh;
     text-align: center; 
     justify-content: center; 
     
-    position: fixed;
+    position: relative;
     bottom: 0;
-    border: 10px solid #96564C;
+    
     border-top:none;
     width: 100%;
     left:0;
@@ -160,7 +179,6 @@ text-align: center;
 }
 .btn-primary{
     margin:10px;
-    margin-top: 2vh;
     background-color: #daa92e!important;
     border-color:#daa92e!important;
     color:#ffffff!important;
@@ -176,4 +194,13 @@ text-align: center;
     margin:5vh;
     width:20vh;
     height:23vh;
+}
+
+.contactInfoFirstPage{
+margin-top:12vh;
+ justify-items: center;
+
+ text-align: center;
+
+ 
 }
