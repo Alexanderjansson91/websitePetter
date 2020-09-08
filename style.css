@@ -1,22 +1,22 @@
 
-body, html {
-
-    margin-top: 3vh;
-    margin-left: 2vh;
-    margin-right: 2vh;
-    margin-bottom: 2vh;
-    background: #96564C;
+html {
+	position: relative; 
+    min-height: 100%; 
     
-  }
+
+    
+}
 
 body{
     font-family: "montseratt", sans-serif;
     background-size: cover;
     background-position: top center;
+    border: 10px solid #96564C;
+
 }
 
 .main{
-   min-height:53vh; 
+   min-height:100vh; 
 }
 
 .navbar-nav{ 
@@ -55,12 +55,13 @@ text-align: center;
   }
 .page-footer{
     background: #dcdcdc;
-    height: 16vh;
+    height: 20vh;
     text-align: center;
-    margin-bottom: 3vh;
     position: relative;
-   
-    display:block;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
 
 }
 
@@ -103,9 +104,29 @@ text-align: center;
 
 .p-2{
     margin:5.5vh;
+    
+}
+
+.place{
+    margin-bottom:17%;
+
 }
 .footer-copyright{
     
     margin-top: 28px;
 }
 
+.box {
+    background: #dcdcdc;
+    height: 15%;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    border: 10px solid #96564C;
+    border-top:none;
+    width: 100%;
+    left:0;
+    right:0;
+    box-sizing: border-box;
+}
