@@ -2,17 +2,46 @@
 html {
 	position: relative; 
     min-height: 100%; 
-    
 
-    
 }
 
 body{
     font-family: "montseratt", sans-serif;
     background-size: cover;
+    background-color: #96564C!important;
     background-position: top center;
     border: 10px solid #96564C;
-    
+}
+
+.bgColor{
+    background-color: #ffffff;
+
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.BackgroundImage {
+
+    background: url('opacity.jpg') center center;
+
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.infoStart{
+    color:white;
+}
+
+.blockquote-footer .start {
+    color: white!important;
 }
 
 
@@ -36,6 +65,10 @@ body{
    
 }
 
+.ml-auto{
+    color: blue;
+}
+
 .main{
    min-height:100vh; 
    
@@ -48,10 +81,29 @@ body{
 
 .navbar-nav{ 
 text-align: center;
+border-color:#daa92e!important;
+}
+
+.navbar-toggler-icon{
+    content: #daa92e!important;
+}
+
+.navbar-toggler { 
+    border-color:#daa92e!important;
+    color:#daa92e!important;
+}
+
+.navbar{
+    border-style: solid;
+    border-bottom: none;
+    border-color: #dcdcdc;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
 }
 
 .navbar-brand{
-    color:black!important;
+    color:#daa92e!important;
     margin:10px;
 }
 
@@ -60,7 +112,7 @@ text-align: center;
     margin-top:10vh;
     font-size:8vh;
     font-weight: 800;
-    color:  rgb(0, 0, 0);;
+    color:  rgb(255, 255, 255);;
 }
 
 
@@ -163,6 +215,7 @@ text-align: center;
     font-size: x-small;
 }
 
+
 .box {
     background: #dcdcdc;
     height: 25vh;
@@ -171,7 +224,11 @@ text-align: center;
     
     position: relative;
     bottom: 0;
-    
+    border-style: solid;
+    border-bottom: none;
+    border-color: #dcdcdc;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     border-top:none;
     width: 100%;
     left:0;
@@ -185,9 +242,13 @@ text-align: center;
     font-size: large!important;
 }
 
-
 .blockquote-footer{
     margin-bottom: 10vh;
+}
+
+
+.hej{
+    color: white;
 }
 
 .rounded{
