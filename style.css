@@ -44,6 +44,13 @@ body{
     color: white!important;
 }
 
+#infoTextStart{
+    color:white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-right:100px;
+}
+
 
 .card-group{
    
@@ -70,13 +77,16 @@ body{
 }
 
 .main{
-   min-height:100vh; 
-   
+   min-height:100vh;   
+}
+
+.mainContact {
+    min-height:75vh;   
 }
 
 .mainFirstPage{
-    min-height:100vh;
-    overflow: hidden;
+    height:95vh;
+    overflow: auto;
 }
 
 .navbar-nav{ 
@@ -156,21 +166,34 @@ border-color:#daa92e!important;
 
 .btn-warning{
    margin:10px;
-   margin-top: 6vh;
-   background-color: #daa92e!important;
-   border-color:#daa92e!important;
-   color:#ffffff!important;
-   font-size: large!important;
+   margin-top: 2.5vh;
+   background-color: #dcdcdc!important;
+   border-color:#dcdcdc!important;
+   color:#daa92e!important;
+   font-size: 25px!important;
+}
+
+.btn-warning:hover{
+    color: #96564C!important; 
+    transform: scale(0.95)!important;
 }
 
 .nav-link{
     color:#daa92e!important;
+    font-family: "montserrat", sans-serif!important;
+    font-weight: 500!important;
 }
 
-.container{
-    text-align: center;
-    
+.nav-link:hover{
+    color: #96564C!important; 
+    transform: scale(0.95)!important;
+  
 }
+
+
+
+
+
 .contactheader{
     margin:3vh;
 }
@@ -181,6 +204,35 @@ border-color:#daa92e!important;
 
 .h3{
     margin: 10vh;
+}
+
+.headLine{
+    margin-Top: 10vh;
+    font-size: 4rem;
+    color: #96564C;
+    text-align: left;
+}
+
+.headlineProjects{
+    
+    font-size: 4rem;
+    color: #96564C;
+    text-align: left;
+}
+
+
+.headlineStart {
+    margin-Top: 10vh;
+    font-size: 6rem;
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subLine{
+    font-size: 2rem;
+    color: #96564C;
+    text-align: left; 
 }
 
 .col-md-3{
@@ -218,7 +270,7 @@ border-color:#daa92e!important;
 
 .box {
     background: #dcdcdc;
-    height: 25vh;
+    height: 12vh;
     text-align: center; 
     justify-content: center; 
     
@@ -235,15 +287,39 @@ border-color:#daa92e!important;
     right:0;
 }
 .btn-primary{
-    margin:10px;
+    padding-left: 50px!important;
+    padding-right: 50px!important;
     background-color: #daa92e!important;
     border-color:#daa92e!important;
     color:#ffffff!important;
     font-size: large!important;
+    font-family: 'Roboto', sans-serif;
 }
 
-.blockquote-footer{
+.btn-primary:hover{
+    color: #96564C!important;
+    transform: scale(0.95)!important;
+}
+
+
+#blockquote-footer{
     margin-bottom: 10vh;
+}
+.blockquoteAbout{
+    margin-bottom:5vh;
+    margin-top:vh;
+    text-align: left; 
+}
+#blockquoteStart{
+    color: white;
+}
+.blockquoteContact{
+    margin-bottom: 5vh;
+    
+    text-align: left; 
+}
+.lead{
+    text-align: left;
 }
 
 
@@ -252,16 +328,72 @@ border-color:#daa92e!important;
 }
 
 .rounded{
-    margin:5vh;
-    width:20vh;
-    height:23vh;
+    margin-top:10vh;
+    width: 60vh;
+    height:45vh;
 }
+
+.projectImage{
+    width: 60vh;
+    height:45vh;
+}
+
+#map{
+    margin-top:13vh!important;
+    width: 55vh!important;
+    height:45vh!important;
+    border: 1px solid #ffffff!important;
+  border-radius: 70%!important;
+  background-color: #fff!important;
+}
+
+#map .top {
+    margin-top: -20px!important;
+  }
+
 
 .contactInfoFirstPage{
-margin-top:12vh;
+ margin-top:12vh;
  justify-items: center;
-
- text-align: center;
-
- 
+ text-align: center; 
 }
+
+.aboutInfo{
+    margin-top:4vh;
+    margin-bottom:8vh;
+    justify-items: center;
+    text-align: center; 
+}
+
+.contactInfo{
+    justify-items: center;
+    text-align: center; 
+}
+
+.iconStyle{
+    margin-bottom: -2px!important;
+}
+
+   .mb-0{
+       text-align: left;
+   }
+
+   
+.listView{
+    margin-top: 35px;
+}
+
+   .list-group-item{
+    border-style: none!important;
+   }
+
+   #more {display: none;}
+
+  
+
+
+
+
+
+
+  
