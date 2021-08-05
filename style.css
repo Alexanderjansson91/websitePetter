@@ -421,7 +421,7 @@ border-color:#daa92e!important;
     }
     
 .headlineStart {
-    margin-Top: 5vh;
+    margin-Top: 7vh;
     font-size: 3rem;
     color: #ffffff;
     text-align: left;
@@ -465,7 +465,7 @@ margin-left: 15vh;
 
 
 .mainFirstPage{
-    height:70vh;
+    height:90vh;
     overflow: auto;
 }
 
