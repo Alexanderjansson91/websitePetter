@@ -77,7 +77,12 @@ body{
 }
 
 .main{
-   min-height:100vh;   
+   min-height:90vh;   
+}
+
+.mainAbout{
+    min-height:100vh;   
+
 }
 
 .mainContact {
@@ -131,6 +136,8 @@ border-color:#daa92e!important;
      margin:5vh;
      color:#FFFFFF;
   }
+
+
 
   .btn-outlin-primary{
      color: rgb(40, 84, 123);
@@ -296,6 +303,7 @@ border-color:#daa92e!important;
     color:#ffffff!important;
     font-size: large!important;
     font-family: 'Roboto', sans-serif;
+    margin-top: 10vh;
 }
 
 .btn-primary:hover{
@@ -321,6 +329,7 @@ border-color:#daa92e!important;
 }
 .lead{
     text-align: left;
+
 }
 
 
@@ -343,6 +352,7 @@ border-color:#daa92e!important;
     margin-top:1vh!important;
     width: 55vh!important;
     margin-left: 5vh;
+    margin-bottom: 15vh;
     height:45vh!important;
     border: 1px solid #ffffff!important;
   border-radius: 70%!important;
@@ -362,7 +372,7 @@ border-color:#daa92e!important;
 
 .aboutInfo{
     margin-top:4vh;
-    margin-bottom:8vh;
+    margin-bottom: -3vh;
     justify-items: center;
     text-align: center; 
 }
@@ -440,6 +450,11 @@ border-color:#daa92e!important;
     text-align: left;
 }
 
+.mainContact {
+    height:100vh;   
+}
+
+
 #about {
     margin-top: 0vh;
 }
@@ -465,9 +480,15 @@ margin-left: 15vh;
 
 
 .mainFirstPage{
-    height:90vh;
+    height:80vh;
     overflow: auto;
 }
 
+.main{
+    height:100%;
+    margin-bottom: 5vh; 
+ }
+ 
+ 
 
 }
