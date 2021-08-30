@@ -26,7 +26,7 @@ body{
 
 .BackgroundImage {
 
-    background: url('opacity.jpg') center center;
+    background: url('husPetter.jpg') center center;
 
   /* Full height */
   height: 100%; 
@@ -46,7 +46,7 @@ body{
 
 #infoTextStart{
     color:white;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Roboto', sans-serif;
     margin-right:100px;
 }
@@ -229,7 +229,7 @@ border-color:#daa92e!important;
 
 .headlineStart {
     margin-Top: 10vh;
-    font-size: 6rem;
+    font-size: 4rem;
     color: #ffffff;
     text-align: left;
     font-family: 'Roboto', sans-serif;
@@ -349,7 +349,7 @@ border-color:#daa92e!important;
 }
 
 #map{
-    margin-top:1vh!important;
+    margin-top:4vh!important;
     width: 55vh!important;
     margin-left: 5vh;
     margin-bottom: 15vh;
@@ -372,7 +372,7 @@ border-color:#daa92e!important;
 
 .aboutInfo{
     margin-top:4vh;
-    margin-bottom: -3vh;
+    margin-bottom: 7vh;
     justify-items: center;
     text-align: center; 
 }
@@ -393,6 +393,10 @@ border-color:#daa92e!important;
 
 .iconStyle{
     margin-bottom: -2px!important;
+}
+
+.icon{
+    margin-bottom: -4px!important;
 }
 
    .mb-0{
@@ -432,7 +436,7 @@ border-color:#daa92e!important;
     
 .headlineStart {
     margin-Top: 7vh;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #ffffff;
     text-align: left;
     font-family: 'Roboto', sans-serif;
@@ -457,17 +461,16 @@ border-color:#daa92e!important;
 
 #about {
     margin-top: 0vh;
+
+    text-align: center;
 }
 
 #map{
-    margin-top:3vh!important;
-margin-bottom: 5vh!important;
-margin-left: 15vh;
     width: 40vh!important;
     height:35vh!important;
     margin: auto;
-    width: 50%;
 
+    width: 50%;
     padding: 10px;
     border: 1px solid #ffffff!important;
   border-radius: 70%!important;
@@ -489,6 +492,22 @@ margin-left: 15vh;
     margin-bottom: 5vh; 
  }
  
- 
+ .aboutInfo{
+    margin-top:4vh;
+    margin-bottom: 1vh;
+    justify-items: center;
+    text-align: center; 
+}
+
+
+}
+
+
+@media only screen and (max-width: 380px) {
+
+    .mainContact {
+        height:105vh;   
+    }
+    
 
 }
